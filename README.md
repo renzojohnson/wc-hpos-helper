@@ -1,6 +1,12 @@
 # WC HPOS Helper
 
+[![Latest Version](https://img.shields.io/packagist/v/renzojohnson/wc-hpos-helper.svg)](https://packagist.org/packages/renzojohnson/wc-hpos-helper)
+[![PHP Version](https://img.shields.io/packagist/php-v/renzojohnson/wc-hpos-helper.svg)](https://packagist.org/packages/renzojohnson/wc-hpos-helper)
+[![License](https://img.shields.io/packagist/l/renzojohnson/wc-hpos-helper.svg)](https://github.com/renzojohnson/wc-hpos-helper/blob/main/LICENSE)
+
 WooCommerce HPOS data integrity toolkit. Audit orders, subscriptions, and customer data after High-Performance Order Storage migration. Detect orphaned records, zero-value fields, and sync mismatches.
+
+**Author:** [Renzo Johnson](https://renzojohnson.com)
 
 ## Requirements
 
@@ -99,6 +105,13 @@ Compares 12 canonical meta keys between HPOS and legacy tables. HPOS is treated 
 }
 ```
 
+## Links
+
+- [Packagist](https://packagist.org/packages/renzojohnson/wc-hpos-helper)
+- [GitHub](https://github.com/renzojohnson/wc-hpos-helper)
+- [Issues](https://github.com/renzojohnson/wc-hpos-helper/issues)
+- [Author](https://renzojohnson.com)
+
 ## License
 
-MIT License. Copyright (c) 2026 Renzo Johnson.
+MIT License. Copyright (c) 2026 [Renzo Johnson](https://renzojohnson.com).
