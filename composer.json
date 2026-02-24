@@ -1,0 +1,53 @@
+{
+    "name": "renzojohnson/wc-hpos-helper",
+    "description": "WooCommerce HPOS data integrity toolkit. Audit orders, subscriptions, and customer data after High-Performance Order Storage migration. Detect orphaned records, zero-value fields, and sync mismatches. Zero dependencies.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://renzojohnson.com",
+    "keywords": [
+        "audit",
+        "data-integrity",
+        "database",
+        "high-performance-order-storage",
+        "hpos",
+        "migration",
+        "php",
+        "woocommerce",
+        "woocommerce-subscriptions"
+    ],
+    "authors": [
+        {
+            "name": "Renzo Johnson",
+            "homepage": "https://renzojohnson.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/renzojohnson/wc-hpos-helper/issues",
+        "source": "https://github.com/renzojohnson/wc-hpos-helper"
+    },
+    "require": {
+        "php": "^8.4",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenzoJohnson\\WcHposHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenzoJohnson\\WcHposHelper\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
